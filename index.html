@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Przelicznik walut online</title>
+  </head>
+  <body>
+    <img src="/grafika/money-gee7d6367e_640.png" alt="logo" />
+
+    <container>
+      <h1>Przelicznik walut</h1>
+      <form id="count">
+        <label for="currencies">Wpisz kwotę i wybierz walutę: </label>
+        <input type="text" id="amount" placeholder="Kwota" />
+        <select id="currencies">
+          <option value="EUR">EUR</option>
+          <option value="CHF">CHF</option>
+          <option value="USD">USD</option>
+        </select>
+        <button id="btn">Przelicz</button>
+        <p>= <span id="span1">8</span></p>
+      </form>
+    </container>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
